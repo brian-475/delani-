@@ -45,13 +45,15 @@ h5{
     font-size: 60px;
     color:white; 
 }
-.container{
-    margin-right:150px;
+.love{
+    text-align:left;
+    margin-left: -10px;
+}
     
 }
 .dev{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     color:black;
     margin-right:250px;
@@ -59,9 +61,16 @@ h5{
 }
 .des{
     text-align:left;
-    font-size:25px;
+    font-size:20px;
     font-weight:bold;
     color:black;
     margin-top:25px;
     margin-left:10px;
+}
+.pro{
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+    margin-top:25px;
+    margin-right:100px;
 }
