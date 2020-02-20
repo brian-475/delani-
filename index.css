@@ -45,3 +45,23 @@ h5{
     font-size: 60px;
     color:white; 
 }
+.container{
+    margin-right:150px;
+    
+}
+.dev{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    margin-right:250px;
+    margin-top:25px;
+}
+.des{
+    text-align:left;
+    font-size:25px;
+    font-weight:bold;
+    color:black;
+    margin-top:25px;
+    margin-left:10px;
+}
