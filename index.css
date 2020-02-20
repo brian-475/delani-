@@ -33,3 +33,14 @@ p{
     padding:10px;
     line-height:60px;
 }
+.three{
+    background-image:url(IP3-master/assets/backgrounds/c_image.jpg);
+    font-size:22px ;
+    color:white;
+    line-height:60px;
+}
+h5{
+    text-align: center;
+    font-size: 60px;
+    color:black; 
+}
