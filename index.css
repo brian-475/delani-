@@ -145,8 +145,4 @@ input[type=text],input[type=email],#textarea{
 
  #button{
      margin-left: 80%;
- }
-.form-group{
-    /* margin-left: 10px; */
-    /* max-width: 100%; */
 }
