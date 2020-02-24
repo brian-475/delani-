@@ -16,7 +16,9 @@ $("document").ready(function(){
 })
 $("document").ready(function (){
     $("#planning").click(function(){
-        $(".building").toggle();
-        $(".building").toggle();
+        $(".building").hide();
+    })
+        $("planning").click(function() {
+        $(".building").show();
     })
 })
