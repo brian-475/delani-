@@ -4,3 +4,9 @@ $("document").ready(function(){
         $(".lion").toggle();
     })
 })
+$("document").ready(funtion(),{
+    $(".desn-2").click(function(){
+        $("#des-image-2").toggle();
+        $(".dev").toggle();
+    })
+})
