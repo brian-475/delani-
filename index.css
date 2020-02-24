@@ -146,3 +146,14 @@ input[type=text],input[type=email],#textarea{
  #button{
      margin-left: 80%;
 }
+.lion{
+    text-align: left;
+    font-size: medium;
+    font-style: normal;
+    font-weight: 500;
+}
+.elleven{
+    font-weight: bold;
+    font-size: x-large;
+    margin-right:200px;
+}
