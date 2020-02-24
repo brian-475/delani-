@@ -22,7 +22,7 @@ $("document").ready(function(){
         (".firstimg").show();
     });
 })
-$("document").ready(function(){
+/*$("document").ready(function(){
     $("#contact-2").submit(function(event){
         var name = $("#name").val();
         var   email= $("#email").val();
@@ -38,5 +38,5 @@ $("document").ready(function(){
         $("name").val();
         $("email").val();
         $("#textarea").val();
-    });
+    });*/
 
