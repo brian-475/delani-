@@ -176,3 +176,8 @@ input[type=text],input[type=email],#textarea{
     background-color: red;
     color: black;
 }
+.col-sm-3:hover{
+    cursor: pointer;
+    transition: ease;
+}
+

@@ -14,8 +14,12 @@ $("document").ready(function(){     //third image toggle
         $(".building").toggle();
     })
 })
-$("documnet").ready(function(){
-    $("#first-hover").mouseenter(function(){
-        $(".hover1").hover();
+$("document").ready(function(){
+    $(".imaging").mouseenter(function(){
+        $(".firstimg").hide();
     })
+    $(".imaging").mouseenter(function(){
+        (".firstimg").show();
+    });
 })
+
