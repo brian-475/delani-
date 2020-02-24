@@ -14,3 +14,9 @@ $("document").ready(function(){
         $("#des-image-2").show();
     })
 })
+$("document").ready(function (){
+    $("#planning").click(function(){
+        $(".building").toggle();
+        $(".building").toggle();
+    })
+})
