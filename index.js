@@ -1,29 +1,22 @@
 $("document").ready(function(){     //first image toggle
-    $(".des-image").click(function(){
-        $("#twelve").toggle();
+    $("#desn").click(function(){
+        $(".twelve").toggle();
     })
 })
 
 $("document").ready(function(){   //second image toggle
-    $(".desn-2").click(function(){
-        $("#twenty").toggle();
+    $("#desn-2").click(function(){
+        $(".twenty").toggle();
     })
 })
 $("document").ready(function(){     //third image toggle
-    $(".fear").click(function(){
-        $("#building").toggle();
+    $("#fear").click(function(){
+        $(".building").toggle();
     })
 })
-$("document").ready(function(){
-    $(".col-md-4").click(function(){
-    $("#planning").toggle();
-    $(".fear").toggle();
-    });
-});
-
-$("document").ready(function(){
-    $("#p").hover(function(){
-        $("#pp").addClass("class1");   
+$("document").ready(function(){ //hover first image
+    $("#first-hover").hover(function(){
+        $("hover1").hover(); 
     
 });
 });
