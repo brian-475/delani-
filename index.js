@@ -1,3 +1,6 @@
-$(document).ready(funtion() {
-    $("#apple").hover();
-}
+$("document").ready(function(){
+    $(".desn").click(function(){
+        $("#des-image").toggle();
+        $(".lion").toggle();
+    })
+})
