@@ -14,9 +14,9 @@ $("document").ready(function(){     //third image toggle
         $(".building").toggle();
     })
 })
-$("#first-hover").mouseenter(function(){
-    $(".hover1").show();
+$("#first-hover").mouseenter(function(){        //first hover
+    $(".hover1").fadeIn();
 })
 $("#first-hover").mouseleave(function(){
-    $(".hover").hide();
+    $(".hover").fadeOut();
 })
