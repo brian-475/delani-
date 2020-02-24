@@ -165,6 +165,8 @@ input[type=text],input[type=email],#textarea{
 }
 .twenty{
     display:none;
+    margin-right: 80px;
+
 }
 .building{
     display:none;
@@ -179,5 +181,15 @@ input[type=text],input[type=email],#textarea{
 .col-sm-3:hover{
     cursor: pointer;
     transition: ease;
+}
+.now{
+    margin-top:30px;
+    text-align:center;
+    font-size: x-large;
+}
+#end{
+    margin-top:25px;
+    text-align: center;
+    font-size:small;
 }
 
