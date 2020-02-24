@@ -22,4 +22,21 @@ $("document").ready(function(){
         (".firstimg").show();
     });
 })
+$("document").ready(function(){
+    $("#contact-2").submit(function(event){
+        var name = $("#name").val();
+        var   email= $("#email").val();
+        var myComment=$("#textarea").val();
+
+        if(name==='' || email==='' || myComment===''){
+        alert("please fill in the form");
+        }
+        else {
+            alert(name+"Your information has been successfully submitted");
+        }
+        event.preventDefault();
+        $("name").val();
+        $("email").val();
+        $("#textarea").val();
+    });
 
