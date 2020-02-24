@@ -1,12 +1,16 @@
 $("document").ready(function(){
     $(".desn").click(function(){
-        $("#des-image").toggle();
-        $(".lion").toggle();
+        $("#des-image").hide();
+        $(".lion").hide();
+        $(".desn").show();
+        $("#des-image").show();
     })
 })
-$("document").ready(funtion(),{
+$("document").ready(function(){
     $(".desn-2").click(function(){
-        $("#des-image-2").toggle();
-        $(".dev").toggle();
+        $("#des-image-2").hide();
+        $(".dev").hide();
+        $(".desn-2").show();
+        $("#des-image-2").show();
     })
 })
