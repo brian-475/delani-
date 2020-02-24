@@ -1,9 +1,15 @@
-$("document").ready(function(){
+$("document").ready(function(){     //first image toggle
+    $(".des-image").click(function(){
+        $("#twelve").toggle();
+    })
+})
+
+$("document").ready(function(){   //second image toggle
     $(".desn-2").click(function(){
         $("#twenty").toggle();
     })
 })
-$("document").ready(function(){
+$("document").ready(function(){     //third image toggle
     $(".fear").click(function(){
         $("#building").toggle();
     })
